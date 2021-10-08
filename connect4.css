@@ -21,7 +21,7 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  position: absolute;
+  position: relative;
   animation-name: falldown;
   animation-duration: 0.25s;
 }
@@ -32,7 +32,6 @@
   20%  {top: 20%;}
   30%  {top: 30%;}
   40%  {top: 40%;}
-  50%  {top: 50%;}
 }
 
 /* make pieces red/blue,  depending on player 1/2 piece */
